@@ -1,8 +1,8 @@
 <template>
   <VButton
     :is-active="isActive"
-    label="Design is my passion XD"
-    @click="onBtnClick"
+    label="Vue 2 🧡 / 💔?"
+    :onClick="onBtnClick"
   />
 </template>
 
@@ -10,8 +10,6 @@
 import './assets/style.scss';
 
 import VButton from './components/Button/Button.vue';
-
-// let isActive;
 
 export default {
   name: 'App',
@@ -25,8 +23,8 @@ export default {
   },
   methods: {
     onBtnClick() {
+      console.log('Man, oh man it is working!');
       this.isActive = !this.isActive;
-      console.log('man it is not working');
     },
   },
 };

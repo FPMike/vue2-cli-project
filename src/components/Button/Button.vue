@@ -10,11 +10,17 @@
 </template>
 
 <script>
+
 export default {
-  props: ['isActive', 'label'],
-  methods: {
-    onClick() {
-      this.$emit('onBtnClick');
+  props: {
+    isActive: Boolean,
+    label: {
+      type: String,
+      default: 'My Button',
+    },
+    onClick: {
+      type: Function,
+      required: true,
     },
   },
 };
