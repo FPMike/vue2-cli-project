@@ -1,0 +1,76 @@
+{
+  "global": {
+    "color": {
+      "brand": {
+        "base": {
+          "value": "#1f2b41",
+          "type": "color"
+        },
+        "medium": {
+          "value": "#3A4F75",
+          "type": "color"
+        },
+        "light": {
+          "value": "#576f9c",
+          "type": "color"
+        }
+      },
+      "accent": {
+        "base": {
+          "value": "#60E7E7",
+          "type": "color"
+        },
+        "light": {
+          "value": "#A9F3F3",
+          "type": "color"
+        }
+      },
+      "ui": {
+        "black": {
+          "value": "#171717",
+          "type": "color"
+        },
+        "white": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "gray1": {
+          "value": "#5B5B5B",
+          "type": "color"
+        },
+        "gray2": {
+          "value": "#B8B8B8",
+          "type": "color"
+        },
+        "gray3": {
+          "value": "#E8E8E8",
+          "type": "color"
+        }
+      },
+      "system": {
+        "positive": {
+          "value": "#87CE41",
+          "type": "color"
+        },
+        "negative": {
+          "value": "#E24343",
+          "type": "color"
+        },
+        "neutral": {
+          "value": "#6EABD7",
+          "type": "color"
+        },
+        "warning": {
+          "value": "#EAB245",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
