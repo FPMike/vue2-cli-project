@@ -1,0 +1,13 @@
+/* General */
+
+.btn {
+    --btn-bg-color: var(--figma-color-accent-base);
+    --btn-bg-color-success: var(--figma-color-system-positive);
+    --btn-color: var(--figma-color-brand-base);
+    --btn-hover-bg-color: var(--figma-color-accent-light);
+    --btn-active-bg-color: var(--figma-color-ui-white);
+    --btn-padding: .6rem 2rem;
+    --btn-font: 1rem;
+    --btn-margin: 1rem 0;
+    --btn-border: none;
+}

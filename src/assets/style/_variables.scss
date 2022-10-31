@@ -1,0 +1,19 @@
+@import "../tokens/css/_variables.scss";
+
+ :root {
+  --transition: all linear 0.15s;
+  --space-25: 0.25rem;
+  --space-50: 0.5rem;
+  --space-100: 1rem; 
+} 
+
+// SCSS variables
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
