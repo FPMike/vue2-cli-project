@@ -1,0 +1,48 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs';
+
+<Meta title="Colors" />
+
+# Colors
+###
+###
+
+<ColorPalette>
+  <ColorItem
+    title="color.brand"
+    subtitle="Brand colors"
+    colors={{ 
+      '.base': '#1f2b41', 
+      '.dark': '#3A4F75', 
+      '.light': '#576f9c'
+    }}
+  />
+  <ColorItem 
+    title="color.accent" 
+    subtitle="Accent colors" 
+    colors={{ 
+      '.base': '#31cce8', 
+      '.light': '#A9F3F3'
+    }}
+  />
+  <ColorItem 
+    title="color.ui" 
+    subtitle="UI colors" 
+    colors={{ 
+      '.black': '#171717', 
+      '.white': '#ffffff',
+      '.grey1': '#5B5B5B',
+      '.grey2': '#B8B8B8',
+      '.grey3': '#E8E8E8',
+    }}
+  />
+  <ColorItem
+    title="color.system"
+    subtitle="System colors"
+    colors={{
+      '.positive': '#87CE41', 
+      '.negative': '#E24343',
+      '.neutral': '#6EABD7',
+      '.warning': '#EAB245' 
+    }}
+  />
+</ColorPalette>
