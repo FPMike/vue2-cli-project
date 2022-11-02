@@ -16,7 +16,7 @@ export default {
     isActive: Boolean,
     label: {
       type: String,
-      default: 'My Button',
+      required: true,
     },
     onClick: {
       type: Function,
